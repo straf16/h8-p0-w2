@@ -1,0 +1,69 @@
+1.  Newton Second Law
+
+    Algoritma:
+    1. Siapkan variabel 'm' untuk nilai massa benda dan masukan nilai 600 kg
+    2. Siapkan variabel 'a' untuk nilai percepatan benda dan masukan nilai 2 m/s2
+    3. Siapkan variabel 'f' untuk nilai resultan gaya
+    4. hitung nilai 'm' dikali 'a' dan hasilnya dimasukan kedalam variabel 'f'
+    5. tampilkan variabel 'f' yaitu 1200 newton
+
+    Pseudocode:
+    STORE 'm' with 600
+    STORE 'a' with 2
+    STORE 'f' with any value
+    SET 'f' with 'm' times 'a'
+    DISLAY 'f'
+
+
+2.  Tahun Kabisat
+
+    Algoritma:
+    1. Buat variabel pengecekan 'tahunKabisat' dan masukan tahun yang ingin dicek
+    2. Cek nilai kebenaran tahun jika habis dibagi 4 dan tidak habis dibagi 100
+    3. Cek nilai kebenaran tahun jika habis dibagi 4, habis dibagi 100, habis dibagi 400
+    4. Apabila step 2 dan step 3 memiliki nilai kebenaran minimal terpenuhi salah satunya, maka tahun adalah kabisat
+    5. Apabila step 2 dan step 3 keduanya tidak terpenuhi maka tahun bukan kabisat
+
+    Pseudocode:
+    STORE 'tahunKabisat' with any value
+    IF ((('tahunKabisat' MOD 4 EQUALS TO 0) AND ('tahunKabisat' MOD 100 NOT EQUALS TO 0)) OR (('tahunKabisat' MOD 4 EQUALS TO 0) AND ('tahunKabisat' MOD 100 EQUALS TO 0) AND ('tahunKabisat' MOD 400 EQUALS TO 0))) THEN
+        DISLAY 'tahunKabisat' "adalah tahun kabisat"
+    ELSE
+        DISLAY 'tahunKabisat' "bukan tahun kabisat"
+
+
+3.  Laundry Day
+
+    Algoritma:
+    1. Siapkan pakaian yang ingin dicuci sebanyak 20 pakaian
+    2. Masukan pakaian satu persatu ke dalam mesin cuci
+    3. Lakukan sampai 20 pakaian tersebut masuk semua ke dalam mesin cuci
+    4. Lalu nyalakan mesin cuci
+
+    Pseudocode:
+    STORE 'pakaian' with 20
+    STORE 'mesinCuci' with any value
+    WHILE 'mesinCuci' LESS THAN 'pakaian'
+        ADD 'mesinCuci' by 1
+    DISLAY "Sebanyak " 'mesinCuci' " pakaian sudah dimasukan kedalam mesin cuci"
+    DISLAY "Mesin cuci siap di nyalakan"
+
+
+4.  Periksa Kuku
+
+    Algoritma:
+    1. Guru berdiri didepan kelas
+    2. Guru meminta siswa/i meletakan tangan diatas meja
+    3. Guru memeriksa satu persatu kuku siswa/i sebanyak 40 orang
+    4. Apabila guru menemukan kuk yang panjang maka guru menghukum siswa/i, jika tidak guru akan memuji siswa/i
+
+    Pseudocode:
+    STORE 'siswa' with 40
+    STORE 'count' with any value
+    STORE 'cekKuku' with preferrable values between 'kukuPanjang' or 'kukuPendek'
+    WHILE 'count' LESS THAN 'siswa'
+        ADD 'count' by 1
+        IF 'cekKuku' EQUALS TO 'kukuPanjang' THEN
+            DISLAY "Kamu saya hukum"
+        ELSE
+            DISLAY "Kamu anak yang baik"

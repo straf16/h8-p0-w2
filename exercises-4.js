@@ -2,7 +2,7 @@ var tanggal = 16; // assign nilai variabel tanggal disini! (dengan angka antara 
 var bulan = 11; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 var tahun = 2000; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
-if ((tanggal > 0 && tanggal < 32) && (bulan > 0 && bulan < 12) && (tahun > 1899 && tahun < 2201)) {
+if ((tanggal > 0 && tanggal < 32) && (bulan > 0 && bulan < 13) && (tahun > 1899 && tahun < 2201)) {
     switch (bulan) {
         case 1:
             console.log(tanggal + ' Januari ' + tahun);

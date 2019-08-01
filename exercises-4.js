@@ -40,5 +40,7 @@ if ((tanggal > 0 && tanggal < 32) && (bulan > 0 && bulan < 13) && (tahun > 1899 
         case 12:
             console.log(tanggal + ' Desember ' + tahun);
             break;
-    }
+    } 
+} else {
+    console.log('Input tanggal/bulan/tahun yang dimasukan tidak valid');
 }

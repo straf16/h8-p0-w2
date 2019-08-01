@@ -42,7 +42,7 @@
 
     Pseudocode:
     STORE 'pakaian' with 20
-    STORE 'mesinCuci' with any value
+    STORE 'mesinCuci' with 0
     WHILE 'mesinCuci' LESS THAN 'pakaian'
         ADD 'mesinCuci' by 1
     DISLAY "Sebanyak " 'mesinCuci' " pakaian sudah dimasukan kedalam mesin cuci"
@@ -59,7 +59,7 @@
 
     Pseudocode:
     STORE 'siswa' with 40
-    STORE 'count' with any value
+    STORE 'count' with 0
     STORE 'cekKuku' with preferrable values between 'kukuPanjang' or 'kukuPendek'
     WHILE 'count' LESS THAN 'siswa'
         ADD 'count' by 1
